@@ -1,0 +1,41 @@
+.banner {
+  background: rgba(0, 0, 0, .2) url(https://picsum.photos/1800/1600);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 160px;
+  text-align: center;
+}
+
+.banner h1, .banner p {
+  text-shadow: 1px 1px 8px rgb(0, 0, 0, 0.2);
+  color: white;
+}
+
+.banner p {
+  opacity: 0.8;
+  margin-bottom: 32px;
+}
+.banner-container {
+  width: 600px;
+  margin: 0;
+}
+
+.banner-container-btn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #44c444;
+  padding: 13px 24px;
+  color: white;
+  font-weight:100;
+  border-radius: 2px;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+.banner-container-btn:hover {
+  font-weight: 200;
+  opacity: 1;
+}

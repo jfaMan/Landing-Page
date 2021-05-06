@@ -1,0 +1,10 @@
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #44c444;
+  padding: 13px 24px;
+  color: white;
+  font-weight:100;
+  border-radius: 50%;
+  transition: 0.3s;
+  opacity: 0.9;
+}
